@@ -7,6 +7,11 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('about');
+  this.route('contact');
+  this.route('rentals');
+  this.route('list-rentals-test.js');
+  this.route('rental-linting');
 });
 
 export default Router;
